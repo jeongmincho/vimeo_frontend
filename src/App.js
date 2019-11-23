@@ -1,11 +1,13 @@
 import React from "react";
-import Card from "./Card.js";
 import "./App.css";
+import Paper from "./Paper";
+import data from "./Data";
 
 function App() {
   return (
     <div className="App">
-      <Card></Card>
+      <Paper data={data.slice(0, 1)} paperType="paper1"></Paper>
+      <Paper data={data.slice(1)} paperType="paper2"></Paper>
     </div>
   );
 }

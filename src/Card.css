@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%
+  width: 90%;
+  margin: 1rem
 }
 
 .card-image {
@@ -31,8 +32,11 @@
 
 @media only screen and (min-width: 1200px) {
   .card {
-    display: flex;
     flex-direction: row-reverse;
+    width: 70rem
+  }
+  .card-right {
+    flex-direction: row;
     width: 70rem
   }
   .card-caption {
