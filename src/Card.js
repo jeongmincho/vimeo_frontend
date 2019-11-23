@@ -3,9 +3,9 @@ import "./Card.css";
 
 function Card() {
   return (
-    <div className="card" style={{ "flex-direction": "row-reverse" }}>
+    <div className="card">
       <div className="card-caption">
-        <h1 className="card-header">Monsoon III</h1>
+        <h2 className="card-header">MONSOON III</h2>
         <p className="card-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
